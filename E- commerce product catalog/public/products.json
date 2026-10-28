@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": "arc-lounge-chair",
+      "order": 1,
+      "name": "Arc Lounge Chair",
+      "category": "Furniture",
+      "price": 420,
+      "label": "A considered classic",
+      "detail": "Solid ash · Oatmeal linen",
+      "image": "https://images.unsplash.com/photo-1598300053653-8c9b5fcb3d0c?auto=format&fit=crop&w=900&q=85",
+      "imageAlt": "Sculptural lounge chair in a softly lit interior"
+    },
+    {
+      "id": "fold-pendant",
+      "order": 2,
+      "name": "Fold Pendant",
+      "category": "Lighting",
+      "price": 185,
+      "label": "New arrival",
+      "detail": "Hand-folded paper · Natural",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+      "imageAlt": "Warm sculptural pendant light hanging in a room"
+    },
+    {
+      "id": "everyday-vase",
+      "order": 3,
+      "name": "Everyday Vase",
+      "category": "Objects",
+      "price": 68,
+      "label": "Small batch",
+      "detail": "Hand-thrown stoneware · Chalk",
+      "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=900&q=85",
+      "imageAlt": "Handmade ceramic vase with a simple sculptural silhouette"
+    },
+    {
+      "id": "soft-edge-throw",
+      "order": 4,
+      "name": "Soft Edge Throw",
+      "category": "Textiles",
+      "price": 128,
+      "label": "Best loved",
+      "detail": "Recycled cotton · Moss stripe",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+      "imageAlt": "Relaxed living room with a textured throw on a sofa"
+    },
+    {
+      "id": "side-table-no-2",
+      "order": 5,
+      "name": "Side Table No. 2",
+      "category": "Furniture",
+      "price": 295,
+      "detail": "Solid oak · Natural oil",
+      "image": "https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=900&q=85",
+      "imageAlt": "Minimal oak side table beside a comfortable reading chair"
+    },
+    {
+      "id": "little-glow-lamp",
+      "order": 6,
+      "name": "Little Glow Lamp",
+      "category": "Lighting",
+      "price": 145,
+      "detail": "Powder-coated steel · Terracotta",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+      "imageAlt": "A warm table lamp casting a soft pool of light"
+    },
+    {
+      "id": "daily-stoneware-set",
+      "order": 7,
+      "name": "Daily Stoneware Set",
+      "category": "Objects",
+      "price": 92,
+      "detail": "Set of two · Speckled clay",
+      "image": "https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?auto=format&fit=crop&w=900&q=85",
+      "imageAlt": "Handmade stoneware pieces arranged on a wooden table"
+    },
+    {
+      "id": "linen-cushion-cover",
+      "order": 8,
+      "name": "Linen Cushion Cover",
+      "category": "Textiles",
+      "price": 74,
+      "detail": "European flax linen · Clay",
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85",
+      "imageAlt": "Natural linen cushions styled on a soft neutral sofa"
+    }
+  ]
+}

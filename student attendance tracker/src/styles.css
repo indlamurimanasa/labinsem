@@ -1,0 +1,178 @@
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: #1d2b24;
+  background: #f4f7f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.page {
+  width: min(100% - 40px, 560px);
+  margin: 0 auto;
+  padding: 88px 0;
+}
+
+.page-header {
+  margin-bottom: 32px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: #367953;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: clamp(1.8rem, 5vw, 2.3rem);
+  letter-spacing: -0.04em;
+}
+
+.page-header > p:last-child {
+  margin-bottom: 0;
+  color: #68766d;
+}
+
+.student-card {
+  padding: 28px;
+  border: 1px solid #e1e9e2;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgb(30 55 38 / 7%);
+}
+
+.student-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.student-avatar {
+  display: grid;
+  flex: 0 0 52px;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border-radius: 15px;
+  background: #eaf4ec;
+  color: #28734e;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.student-label {
+  margin: 0 0 3px;
+  color: #748078;
+  font-size: 0.8rem;
+}
+
+.student-card h2 {
+  margin-bottom: 0;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+
+.student-details {
+  margin: 0;
+  border-top: 1px solid #edf0ed;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 15px 0;
+  border-bottom: 1px solid #edf0ed;
+}
+
+.detail-row dt {
+  color: #68766d;
+}
+
+.detail-row dd {
+  margin: 0;
+  font-weight: 600;
+  text-align: right;
+}
+
+.attendance {
+  margin-top: 22px;
+}
+
+.attendance-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.attendance-heading h3 {
+  margin: 0;
+  color: #68766d;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.attendance-heading strong {
+  color: #28734e;
+  font-size: 1.25rem;
+}
+
+.attendance progress {
+  display: block;
+  width: 100%;
+  height: 10px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: #eaf0eb;
+  appearance: none;
+}
+
+.attendance progress::-webkit-progress-bar {
+  border-radius: 999px;
+  background: #eaf0eb;
+}
+
+.attendance progress::-webkit-progress-value {
+  border-radius: 999px;
+  background: #3b8c5d;
+}
+
+.attendance progress::-moz-progress-bar {
+  border-radius: 999px;
+  background: #3b8c5d;
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 56px 0;
+  }
+
+  .student-card {
+    padding: 22px;
+  }
+}
